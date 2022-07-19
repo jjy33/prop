@@ -1,0 +1,143 @@
+
+nav {
+    background: var(--navbar-bg-color);
+    z-index: 9;
+    right: 0;
+    left: 0;
+    transition: all 0.3s;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+
+  /* nav태그 아래의 div태그들을 수평정렬 및 세로길이 설정 */
+  nav > div {
+    text-align: center;
+    float: left;
+    width: 10%;
+  
+    /* 세로길이 설정 */
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .btn {
+    background: var(--secondary-color);
+    border-radius: 100px;
+    color: var(--white-color);
+    font-size: var(--copyright-text-font-size);
+    font-weight: var(--font-weight-bold);
+    padding: 2px 15px;
+    margin-left: 20px;
+  }
+
+  .btn:hoever{
+    background: var(--primary-color);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    color: var(--white-color);
+  }
+
+  nav > h1 {
+    font-size: 20px;
+    line-height: 1.2rem;
+    font-weight: var(--font-weight-bold);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    vertical-align:super;
+  }
+  
+  .tog-icon {
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%}
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 2.5px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: var(--dark-color);
+    font-size: var(--menu-font-size);
+    font-weight: var(--font-weight-bold);
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* .navbar-nav .nav-link.active,  */
+  .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+  }
+  
+  .navbar-toggler {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    width: 30px;
+    height: 35px;
+    outline: none;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    background: transparent;
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
+    transition: top 300ms 50ms ease, transform 300ms 350ms ease;
+    transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+    top: 0;
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+    transform: rotate(45deg);
+  }
+  
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+    transform: rotate(-45deg);
+  }
+  
+  .navbar-toggler .navbar-toggler-icon {
+    background: var(--dark-color);
+    transition: background 10ms 300ms ease;
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: relative;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon:before,
+  .navbar-toggler .navbar-toggler-icon:after {
+    transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
+    transition: top 300ms 350ms ease, transform 300ms 50ms ease;
+    transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: var(--dark-color);
+    width: 30px;
+    height: 2px;
+    content: '';
+  }
+  
+  .navbar-toggler .navbar-toggler-icon::before {
+    top: -8px;
+  }
+  
+  .navbar-toggler .navbar-toggler-icon::after {
+    top: 8px;
+  }
+
+  @import url('bs.css');
