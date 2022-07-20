@@ -1,7 +1,7 @@
 import React from 'react';
-import Container from './components/container';
-import Col from './components/col';
-import Row from './components/row';
+import Container from '../components/container';
+import Col from '../components/col';
+import Row from '../components/row';
 
 
 

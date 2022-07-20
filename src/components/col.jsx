@@ -6,7 +6,6 @@ const widthPercent = span => {
     const width = (span / 12) * 100;
     return width;
   };
-  
 const BREAK_POINT_MOBILE = 768;
 const BREAK_POINT_TABLET = 992;
 const BREAK_POINT_PC = 1200;

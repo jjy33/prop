@@ -1,15 +1,11 @@
 import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Main, About, Estimate, Inquiry, Login, Join } from './pages';
+
 import GlobalStyle from "./styles/GlobalStyle";
-import Nav from './components/nav';
-import Main from './Main';
-import About from './components/about';
-import Estimate from './components/estimate';
-import Inquiry from './components/inquiry';
-import Login from './components/login';
-import Join from './components/join';
 import styled from "styled-components"
+import Nav from './components/nav';
 
 const AppContainer = styled.div`
   &,
