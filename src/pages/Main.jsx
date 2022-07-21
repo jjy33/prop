@@ -1,19 +1,21 @@
 import React from 'react';
-import Container from '../components/container';
-import Col from '../components/col';
-import Row from '../components/row';
+import styled from 'styled-components';
+import Section from '../components/section'
 
+
+const D = styled.div`
+	background-color: var(--primary-color)
+`
 
 
 const Main = (props) => {
 	return (
-		<Container>
-			<Row>
-				<Col md={6} lg={4}>1</Col>
-				<Col md={6} lg={4}>2</Col>
-				<Col md={6} lg={4}>3</Col>
-			</Row>
-		</Container>
+		<>
+			<Section>
+				section1
+				<D>aaa</D>
+			</Section>
+		</>
 	);
 };
 

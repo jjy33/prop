@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     
     body {
         background: var(--white-color);
-        font-family: var(--body-font-family); 
+        font-family: var(--body-font-family) !important; 
     }
     
     h2,

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const pixelToRem = (size) => `${size / 16}rem`;
 
-const colors = {
+const color = {
     primary: "#0dcaf0",
     secondary: "#0d6efd",
     white: "#ffffff",
@@ -10,9 +10,9 @@ const colors = {
     sectionBg: "#f0f8ff",
     navBg: "#ffffff",
     pColor: "#717275",
-}
+};
 
-const fontSizes = {
+const fontSize = {
     h1: "55px",
     h2: "48px",
     h3: "36px",
@@ -21,26 +21,22 @@ const fontSizes = {
     h6: "22px",
     p: "18px",
     btn: "18px",
+    navBr: "20px",
+    navMn: "16px",
 };
 
-const common = {
-    flexCenter: `
-        display: flex;
-        justify-contents: centers;
-        align-items: center;
-    `,
-    flexCenterColumn: `
-        display: flex;
-        flex-direction: columns;
-        justify-contents: center;
-        align-items: center;
-    `
-};
+const fontWeight = {
+    light: '100',
+    normal: '300',
+    medium: '400',
+    bold: '500',
+    bbold: '700',
+}
 
 const theme = {
-    colors,
-    fontSizes,
-    common,
+    color,
+    fontSize,
+    fontWeight,
 };
 
 export default theme;

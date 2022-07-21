@@ -3,7 +3,7 @@ import "./nav.css";
 import { Link } from 'react-router-dom';
 
 
-const Nav = () => {
+const Navi = () => {
     return (
       <nav className="navbar navbar-expand-lg">
         <div className="container">
@@ -42,4 +42,4 @@ const Nav = () => {
     );
   };
 
-export default Nav;
+export default Navi;
