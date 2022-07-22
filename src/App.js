@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Main, About, Estimate, Inquiry, Login, Join } from './pages';
+import { Main, About, Request, Inquiry, Login, Join } from './pages';
 
 import GlobalStyle from "./styles/GlobalStyle";
 import styled from "styled-components"
@@ -23,7 +23,7 @@ const App = () => {
 				<Routes>
 					<Route path="/" exact={true} element={<Main />}></Route>
 					<Route path="/about" element={<About />}></Route>
-					<Route path="/estimate" element={<Estimate />}></Route>
+					<Route path="/request" element={<Request />}></Route>
 					<Route path="/inquiry" element={<Inquiry />}></Route>
 					<Route path="/Login" element={<Login />}></Route>
 					<Route path="/Join" element={<Join />}></Route>

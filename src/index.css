@@ -11,3 +11,83 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: black;
+}
+
+.why_div{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: yellow;
+  min-height: 150px;
+}
+
+.why_div .why_text {
+
+  font-weight: 700;
+  font-size: 3.5rem;
+  width: 398px;
+  margin: 20px auto;
+  font-weight: bold;
+  padding: auto;
+}
+
+
+.why_content{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  color: black;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+}
+
+video{
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.button_main{
+  color: white;
+  background-color: skyblue;
+  border-width: 0ch;
+  border-radius: 10%;
+  
+}
+
+.text_center{
+  text-align: center;
+}

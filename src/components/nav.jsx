@@ -22,7 +22,7 @@ const Nav = () => {
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/estimate" className="nav-link click-scroll">견적요청</Link>
+                        <Link to="/request" className="nav-link click-scroll">견적요청</Link>
                     </li>
 
                     <li className="nav-item">
